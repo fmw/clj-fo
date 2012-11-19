@@ -1,0 +1,15 @@
+pom.xml
+*.jar
+*.war
+lib
+classes
+*.swp
+\#*
+*~
+.#*
+out
+*.soy.js
+.lein-cljsbuild*
+.crossover*
+stale
+target
