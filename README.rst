@@ -1,20 +1,22 @@
-========================================================
-clj-fo: Apache FOP wrapper in Clojure for PDF generation
-========================================================
+==============================================
+clj-fo: PDF generation in Clojure using XSL-FO
+==============================================
 
-The 'clj-fo' library is a tiny Clojure wrapper around `Apache FOP` and
-meant for generating PDF documents. It creates XSL-FO output, which is
-fed to Apache FOP for processing. It also provides an easy way to
+The clj-fo library is a tiny Clojure wrapper around `Apache FOP`_ and
+meant for generating PDF documents. It creates `XSL-FO`_ output, which
+is fed to Apache FOP for processing. It also provides an easy way to
 convert existing XSL-FO documents to PDF.
 
 I wrote the library to create PDF invoices for the
-`website-management software`_ developed my startup `Vixu.com`_. It
-was written to scratch my own itch and is provided as-is, warts and
-all. Don't hesitate to contact the author at fmw@vixu.com if you have
-any questions, however. I'm happy to help.
+`website-management software`_ developed by my startup `Vixu.com`_.
+It was written to scratch my own itch and is provided as-is,
+warts and all. The software is provided under the conditions
+of the `Apache License, version 2`_.
 
-You can add clj-fo as a dependency in your Leiningen project.clj
-through Clojars:
+Please don't hesitate to contact the author at fmw@vixu.com if you
+have any questions. I'm happy to help.
+
+You can add clj-fo as a dependency in your Leiningen project.clj:
 
     [clj-fo "0.0.1"]
 
@@ -121,6 +123,7 @@ Example usage:
      "/home/fmw/Documents/invoices/invoice-website-acme.pdf")
 
 .. _`Apache FOP`: http://xmlgraphics.apache.org/fop/
+.. _`Apache License, version 2`: http://www.apache.org/licenses/LICENSE-2.0.html
 .. _`XSL-FO`: http://en.wikipedia.org/wiki/XSL_Formatting_Objects
-.. _`website-management software`: https:/github.com/fmw/vix
+.. _`website-management software`: https://github.com/fmw/vix
 .. _`Vixu.com`: http:/www.vixu.com/
